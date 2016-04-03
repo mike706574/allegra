@@ -22,3 +22,4 @@ temp
 .lein-plugins
 .nrepl-port
 resources/properties.edn
+test-resources/properties.edn

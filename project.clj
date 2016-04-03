@@ -7,5 +7,6 @@
                  [org.clojure/data.csv "0.1.3"]
                  [clj-http "2.1.0"]
                  [com.taoensso/timbre "4.3.1"]]
+  :resource-paths ["resources" "test-resources"]
   :main allegra.core
   :aot :all)
