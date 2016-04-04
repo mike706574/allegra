@@ -1,7 +1,7 @@
 (ns allegra.walmart
   (:require [clojure.data.json :as json]
             [clojure.pprint :refer [pprint]]
-            [clojure.data.edn :as edn]
+            [clojure.edn :as edn]
             [clj-http.client :as http]
             [taoensso.timbre :as log]
             [clojure.edn :as edn]))
