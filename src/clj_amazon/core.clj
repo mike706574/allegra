@@ -87,16 +87,6 @@
 
 (defn encode-url [url] (if url (java.net.URLEncoder/encode url "UTF-8")))
 
-(defn assoc+
-  ([m k v]
-   (let [item (get m k)]
-     (if k
-       (cond (nil? item) (assoc m k v)
-             (vector? item) (assoc m k (conj item v))
-             :else (assoc m k [item v]))
-       m)))
-  ([m k v & kvs] (apply assoc+ (assoc+ m k v) kvs)))
-
 (defn _bool->str [bool] (if bool "True" "False"))
 
 (defn _str->sym [string]
