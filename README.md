@@ -1,6 +1,6 @@
 # allegra
 
-Application for retrieving production information from
+Application for retrieving product information.
 
 
 ## Copyright and License
