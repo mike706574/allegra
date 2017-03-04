@@ -1,7 +1,10 @@
 # allegra
 
-Application for retrieving product information.
+Clojure commnd-line application for retrieving product information given a list of [UPCs](https://en.wikipedia.org/wiki/Universal_Product_Code). Created for a friend.
 
+Integrates with [Amazon's Product Advertising API](https://aws.amazon.com/archives/Product-Advertising-API/8967000559514506). Uses some code from [clj-amazon](https://github.com/FreeAgent/clj-amazon), which is based on code written by [eduardoejp](https://github.com/eduardoejp).
+
+Also contains some unfinished code for in integrating with [Walmart's Open API](https://developer.walmartlabs.com/).
 
 ## Copyright and License
 
